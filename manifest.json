@@ -13,7 +13,8 @@
         "nvueCompiler" : "uni-app",
         /* 5+App特有相关 */
         "modules" : {
-            "Push" : {}
+            "Push" : {},
+            "Geolocation" : {}
         },
         /* 模块配置 */
         "distribute" : {
@@ -25,6 +26,7 @@
                     "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
                     "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
                     "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
                     "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
                     "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
                 ],
@@ -48,7 +50,8 @@
                         "UniversalLinks" : ""
                     }
                 },
-                "geolocation" : {}
+                "geolocation" : {},
+                "oauth" : {}
             },
             "icons" : {
                 "android" : {
